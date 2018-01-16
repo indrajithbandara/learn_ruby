@@ -29,10 +29,9 @@ def factorial(x)
   end
 end
 
-
 def sum(array)
   unless array.empty?
-    #sum = array.sum
+    #same as sum = array.sum
     sum = array.inject(:+)
   else
     sum = 0
