@@ -24,5 +24,5 @@ def titleize(str)
   words = str.split(" ")
   words.map { |word| word.capitalize! if !dictionary.include?(word) }
   words[0].capitalize!
-  return words.join(" ")
+  words.join(" ")
 end
